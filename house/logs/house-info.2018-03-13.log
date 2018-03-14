@@ -1,0 +1,38 @@
+2018-03-13 17:43:30.947 [restartedMain] INFO  [com.mooc.house.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 12824 (F:\git\yangbao\house\house\target\classes started by u6035457 in F:\git\yangbao\house\house)
+2018-03-13 17:43:30.949 [restartedMain] INFO  [com.mooc.house.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-13 17:43:31.042 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ca2344b: startup date [Tue Mar 13 17:43:31 CST 2018]; root of context hierarchy
+2018-03-13 17:43:34.762 [restartedMain] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-13 17:43:36.045 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-13 17:43:38.131 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-13 17:43:38.133 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-13 17:43:38.534 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-13 17:43:38.534 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 7492 ms
+2018-03-13 17:43:39.006 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-03-13 17:43:39.012 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-13 17:43:39.020 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-13 17:43:39.021 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-13 17:43:39.021 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-13 17:43:39.021 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-13 17:43:39.022 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'logFilter' to urls: [*]
+2018-03-13 17:43:39.787 [restartedMain] INFO  [com.alibaba.druid.pool.DruidDataSource:847] - {dataSource-1} inited
+2018-03-13 17:43:41.164 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ca2344b: startup date [Tue Mar 13 17:43:31 CST 2018]; root of context hierarchy
+2018-03-13 17:43:41.278 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/index]}" onto public java.lang.String com.mooc.house.controller.HelloController.index()
+2018-03-13 17:43:41.279 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/hello]}" onto public java.lang.String com.mooc.house.controller.HelloController.hello(org.springframework.ui.ModelMap)
+2018-03-13 17:43:41.280 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/user]}" onto public java.util.List<com.mooc.house.common.model.User> com.mooc.house.controller.UserController.getUsers()
+2018-03-13 17:43:41.290 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-13 17:43:41.291 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-13 17:43:41.388 [restartedMain] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-13 17:43:41.389 [restartedMain] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-13 17:43:41.465 [restartedMain] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-13 17:43:41.847 [restartedMain] INFO  [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-13 17:43:42.171 [restartedMain] INFO  [o.s.b.d.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2018-03-13 17:43:42.304 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+2018-03-13 17:43:42.306 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-13 17:43:42.306 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-03-13 17:43:42.317 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-03-13 17:43:42.319 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-03-13 17:43:42.368 [restartedMain] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] - Initializing ProtocolHandler ["http-nio-8090"]
+2018-03-13 17:43:42.431 [restartedMain] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] - Starting ProtocolHandler ["http-nio-8090"]
+2018-03-13 17:43:42.457 [restartedMain] INFO  [org.apache.tomcat.util.net.NioSelectorPool:179] - Using a shared selector for servlet write/read
+2018-03-13 17:43:42.491 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:198] - Tomcat started on port(s): 8090 (http)
+2018-03-13 17:43:42.499 [restartedMain] INFO  [com.mooc.house.HouseApplication:57] - Started HouseApplication in 12.259 seconds (JVM running for 13.172)
