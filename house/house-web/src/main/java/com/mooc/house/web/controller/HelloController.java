@@ -18,9 +18,13 @@ public class HelloController {
   private UserService userService;
   
   @RequestMapping("hello")
-  public String  hello(ModelMap modelMap){
+  public String  hello(ModelMap modelMap) throws Exception{
     List<User> users = userService.getUsers();
     modelMap.put("users", users);
+    if(users.size() > 0){
+    	System.out.println("aaa");
+    	throw new Exception();
+    }
     return "hello";
   }
   
