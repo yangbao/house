@@ -1,0 +1,366 @@
+2018-03-14 13:35:17.438 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 15124 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 13:35:17.444 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 13:35:17.545 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f77886e: startup date [Wed Mar 14 13:35:17 CST 2018]; root of context hierarchy
+2018-03-14 13:35:17.702 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 13:37:19.351 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 24264 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 13:37:19.356 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 13:37:19.418 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6bff5631: startup date [Wed Mar 14 13:37:19 CST 2018]; root of context hierarchy
+2018-03-14 13:37:19.542 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 13:37:22.430 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 13:37:22.451 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 13:37:22.453 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 13:37:22.611 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 13:37:22.612 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 3194 ms
+2018-03-14 13:37:22.868 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 13:37:22.872 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 13:37:22.873 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 13:37:22.873 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 13:37:22.873 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 13:37:22.959 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Stopping service [Tomcat]
+2018-03-14 13:37:23.011 [restartedMain] INFO  [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 13:38:41.067 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 16540 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 13:38:41.071 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 13:38:41.136 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f77886e: startup date [Wed Mar 14 13:38:41 CST 2018]; root of context hierarchy
+2018-03-14 13:38:41.251 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 13:38:43.962 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 13:38:43.979 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 13:38:43.980 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 13:38:44.132 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 13:38:44.132 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 2997 ms
+2018-03-14 13:38:44.408 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 13:38:44.413 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 13:38:44.414 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 13:38:44.414 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 13:38:44.415 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 13:38:44.484 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Stopping service [Tomcat]
+2018-03-14 13:38:44.519 [restartedMain] INFO  [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 13:44:38.931 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 3844 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 13:44:38.934 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 13:44:39.032 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f77886e: startup date [Wed Mar 14 13:44:39 CST 2018]; root of context hierarchy
+2018-03-14 13:44:39.134 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 13:44:42.062 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 13:44:42.079 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 13:44:42.080 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 13:44:42.231 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 13:44:42.232 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 3200 ms
+2018-03-14 13:44:42.511 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 13:44:42.517 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 13:44:42.518 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 13:44:42.518 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 13:44:42.518 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 13:44:42.586 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Stopping service [Tomcat]
+2018-03-14 13:44:42.623 [restartedMain] INFO  [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 13:46:33.930 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 15952 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 13:46:33.933 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 13:46:34.070 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7cde5bf9: startup date [Wed Mar 14 13:46:34 CST 2018]; root of context hierarchy
+2018-03-14 13:46:34.105 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 13:46:36.991 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 13:46:37.012 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 13:46:37.014 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 13:46:37.181 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 13:46:37.182 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 3112 ms
+2018-03-14 13:46:37.465 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 13:46:37.470 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 13:46:37.470 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 13:46:37.471 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 13:46:37.471 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 13:46:37.532 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Stopping service [Tomcat]
+2018-03-14 13:46:37.566 [restartedMain] INFO  [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 13:48:03.874 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 23360 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 13:48:03.878 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 13:48:03.983 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b9f32e9: startup date [Wed Mar 14 13:48:03 CST 2018]; root of context hierarchy
+2018-03-14 13:48:04.067 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 13:48:06.922 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 13:48:06.941 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 13:48:06.942 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 13:48:07.082 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 13:48:07.082 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 3099 ms
+2018-03-14 13:48:07.349 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 13:48:07.353 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 13:48:07.354 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 13:48:07.354 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 13:48:07.355 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 13:48:07.417 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Stopping service [Tomcat]
+2018-03-14 13:48:07.451 [restartedMain] INFO  [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 14:54:04.223 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 17976 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 14:54:04.241 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 14:54:04.331 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4587ccdf: startup date [Wed Mar 14 14:54:04 CST 2018]; root of context hierarchy
+2018-03-14 14:54:04.446 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 14:54:07.280 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8080 (http)
+2018-03-14 14:54:07.297 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 14:54:07.299 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 14:54:07.469 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 14:54:07.471 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 3140 ms
+2018-03-14 14:54:07.727 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 14:54:07.732 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 14:54:07.733 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 14:54:07.733 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 14:54:07.733 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 14:54:07.813 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Stopping service [Tomcat]
+2018-03-14 14:54:07.861 [restartedMain] INFO  [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 14:55:04.084 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 18380 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 14:55:04.088 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 14:55:04.171 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b0d840c: startup date [Wed Mar 14 14:55:04 CST 2018]; root of context hierarchy
+2018-03-14 14:55:04.290 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 14:55:07.160 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8080 (http)
+2018-03-14 14:55:07.180 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 14:55:07.182 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 14:55:07.333 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 14:55:07.334 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 3163 ms
+2018-03-14 14:55:07.586 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 14:55:07.591 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 14:55:07.592 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 14:55:07.592 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 14:55:07.592 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 14:55:07.649 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Stopping service [Tomcat]
+2018-03-14 14:55:07.685 [restartedMain] INFO  [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 15:01:40.303 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 19648 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 15:01:40.308 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 15:01:40.383 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61018da9: startup date [Wed Mar 14 15:01:40 CST 2018]; root of context hierarchy
+2018-03-14 15:01:40.517 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 15:01:43.469 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 15:01:43.488 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 15:01:43.490 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 15:01:43.655 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 15:01:43.656 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 3273 ms
+2018-03-14 15:01:43.912 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 15:01:43.918 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 15:01:43.919 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 15:01:43.919 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 15:01:43.919 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 15:01:43.977 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Stopping service [Tomcat]
+2018-03-14 15:01:44.012 [restartedMain] INFO  [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 15:03:38.660 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 12652 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 15:03:38.664 [restartedMain] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 15:03:38.753 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f77886e: startup date [Wed Mar 14 15:03:38 CST 2018]; root of context hierarchy
+2018-03-14 15:03:38.856 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 15:03:41.582 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 15:03:41.613 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 15:03:41.616 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 15:03:41.815 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 15:03:41.816 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 3063 ms
+2018-03-14 15:03:42.068 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 15:03:42.074 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 15:03:42.076 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 15:03:42.077 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 15:03:42.077 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 15:03:42.140 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Stopping service [Tomcat]
+2018-03-14 15:03:42.177 [restartedMain] INFO  [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 15:33:53.514 [main] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 16468 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 15:33:53.518 [main] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 15:33:53.600 [main] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62379589: startup date [Wed Mar 14 15:33:53 CST 2018]; root of context hierarchy
+2018-03-14 15:33:53.730 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 15:33:56.087 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 15:33:56.110 [main] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 15:33:56.112 [main] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 15:33:56.313 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 15:33:56.313 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 2713 ms
+2018-03-14 15:33:56.561 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 15:33:56.562 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 15:33:56.563 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 15:33:56.563 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 15:33:56.563 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'logFilter' to urls: [*]
+2018-03-14 15:33:56.564 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 15:33:56.647 [main] INFO  [org.apache.catalina.core.StandardService:179] - Stopping service [Tomcat]
+2018-03-14 15:33:56.732 [main] INFO  [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 15:38:01.004 [main] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 14344 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 15:38:01.008 [main] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 15:38:01.114 [main] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62379589: startup date [Wed Mar 14 15:38:01 CST 2018]; root of context hierarchy
+2018-03-14 15:38:01.202 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 15:38:03.481 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 15:38:03.497 [main] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 15:38:03.498 [main] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 15:38:03.653 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 15:38:03.654 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 2540 ms
+2018-03-14 15:38:03.919 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 15:38:03.920 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 15:38:03.921 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 15:38:03.921 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 15:38:03.921 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'logFilter' to urls: [*]
+2018-03-14 15:38:03.921 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 15:38:03.989 [main] INFO  [org.apache.catalina.core.StandardService:179] - Stopping service [Tomcat]
+2018-03-14 15:38:04.030 [main] INFO  [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 15:38:23.689 [main] INFO  [com.mooc.house.web.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 2008 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 15:38:23.742 [main] INFO  [com.mooc.house.web.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 15:38:23.829 [main] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@76a2ddf3: startup date [Wed Mar 14 15:38:23 CST 2018]; root of context hierarchy
+2018-03-14 15:38:23.901 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 15:38:26.588 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 15:38:26.609 [main] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 15:38:26.611 [main] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 15:38:26.832 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 15:38:26.833 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 3004 ms
+2018-03-14 15:38:27.128 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 15:38:27.130 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 15:38:27.130 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 15:38:27.130 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 15:38:27.131 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'logFilter' to urls: [*]
+2018-03-14 15:38:27.131 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 15:38:27.243 [main] INFO  [org.apache.catalina.core.StandardService:179] - Stopping service [Tomcat]
+2018-03-14 15:38:27.287 [main] INFO  [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 15:45:20.942 [main] INFO  [com.mooc.house.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 23264 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 15:45:20.946 [main] INFO  [com.mooc.house.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 15:45:21.027 [main] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62379589: startup date [Wed Mar 14 15:45:21 CST 2018]; root of context hierarchy
+2018-03-14 15:45:21.146 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 15:45:23.938 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 15:45:23.966 [main] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 15:45:23.969 [main] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 15:45:24.176 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 15:45:24.177 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 3149 ms
+2018-03-14 15:45:24.556 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 15:45:24.557 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 15:45:24.557 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 15:45:24.557 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 15:45:24.558 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'logFilter' to urls: [*]
+2018-03-14 15:45:24.558 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-03-14 15:45:24.560 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 15:45:25.363 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:847] - {dataSource-1} inited
+2018-03-14 15:45:29.114 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62379589: startup date [Wed Mar 14 15:45:21 CST 2018]; root of context hierarchy
+2018-03-14 15:45:29.244 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/index]}" onto public java.lang.String com.mooc.house.web.controller.HelloController.index()
+2018-03-14 15:45:29.246 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/hello]}" onto public java.lang.String com.mooc.house.web.controller.HelloController.hello(org.springframework.ui.ModelMap)
+2018-03-14 15:45:29.247 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/user]}" onto public java.util.List<com.mooc.house.common.model.User> com.mooc.house.web.controller.UserController.getUsers()
+2018-03-14 15:45:29.251 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-14 15:45:29.253 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-14 15:45:29.299 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 15:45:29.300 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 15:45:29.364 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 15:45:29.686 [main] INFO  [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-14 15:45:29.985 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+2018-03-14 15:45:29.988 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-14 15:45:29.988 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-03-14 15:45:29.997 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-03-14 15:45:29.998 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-03-14 15:45:30.018 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] - Initializing ProtocolHandler ["http-nio-8090"]
+2018-03-14 15:45:30.039 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] - Starting ProtocolHandler ["http-nio-8090"]
+2018-03-14 15:45:30.091 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:179] - Using a shared selector for servlet write/read
+2018-03-14 15:45:30.133 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:198] - Tomcat started on port(s): 8090 (http)
+2018-03-14 15:45:30.139 [main] INFO  [com.mooc.house.HouseApplication:57] - Started HouseApplication in 9.828 seconds (JVM running for 10.642)
+2018-03-14 15:46:01.877 [http-nio-8090-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-14 15:46:01.878 [http-nio-8090-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-14 15:46:01.918 [http-nio-8090-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+2018-03-14 15:46:01.946 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.163 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.408 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.408 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.409 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.409 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.409 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.412 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.444 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.447 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.450 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.461 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.465 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.492 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.501 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.511 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.519 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.529 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.592 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.604 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.615 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.625 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.634 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.645 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.657 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.672 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.682 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.690 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.698 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.709 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.718 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.728 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.735 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.745 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.753 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.763 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.775 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.787 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.798 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.809 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.816 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.828 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.847 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.864 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.878 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.887 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.948 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.959 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.975 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:10.982 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:22.938 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:22.939 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.298 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.361 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.366 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.370 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.383 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.383 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.385 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.394 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.395 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.399 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.403 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.404 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.410 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.410 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.417 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.430 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.434 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.438 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.440 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.443 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.445 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.448 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.451 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.452 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.452 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.460 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.460 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.466 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.471 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.476 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.479 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.483 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.486 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.484 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.490 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.489 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.648 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.648 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.649 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.650 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.648 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.653 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.657 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.657 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.659 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.663 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.665 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.679 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.686 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.693 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 15:46:48.702 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming

@@ -1,0 +1,242 @@
+2018-03-14 13:35:17.851 [restartedMain] ERROR [o.s.b.factory.support.DefaultListableBeanFactory:581] - Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f77886e: startup date [Wed Mar 14 13:35:17 CST 2018]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176)
+	at com.mooc.house.web.HouseApplication.main(HouseApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-03-14 13:35:17.878 [restartedMain] ERROR [org.springframework.boot.SpringApplication:840] - Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.mooc.house.web.HouseApplication]; nested exception is java.lang.IllegalStateException: java.io.FileNotFoundException: class path resource [com/mooc/house/autoconfig/HttpClientAutoConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:556)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:185)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:308)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176)
+	at com.mooc.house.web.HouseApplication.main(HouseApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: java.io.FileNotFoundException: class path resource [com/mooc/house/autoconfig/HttpClientAutoConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.boot.autoconfigure.EnableAutoConfigurationImportSelector.selectImports(EnableAutoConfigurationImportSelector.java:94)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:547)
+	... 19 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [com/mooc/house/autoconfig/HttpClientAutoConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:50)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:98)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:89)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:76)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:93)
+	at org.springframework.boot.autoconfigure.AutoConfigurationSorter$AutoConfigurationClasses.<init>(AutoConfigurationSorter.java:110)
+	at org.springframework.boot.autoconfigure.AutoConfigurationSorter.getInPriorityOrder(AutoConfigurationSorter.java:54)
+	at org.springframework.boot.autoconfigure.EnableAutoConfigurationImportSelector.sort(EnableAutoConfigurationImportSelector.java:193)
+	at org.springframework.boot.autoconfigure.EnableAutoConfigurationImportSelector.selectImports(EnableAutoConfigurationImportSelector.java:89)
+	... 20 common frames omitted
+2018-03-14 13:37:23.175 [restartedMain] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in com.mooc.house.web.service.UserService required a bean of type 'com.mooc.house.biz.mapper.UserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mooc.house.biz.mapper.UserMapper' in your configuration.
+
+2018-03-14 13:38:44.682 [restartedMain] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in com.mooc.house.web.service.UserService required a bean of type 'com.mooc.house.biz.mapper.UserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mooc.house.biz.mapper.UserMapper' in your configuration.
+
+2018-03-14 13:44:42.767 [restartedMain] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in com.mooc.house.web.service.UserService required a bean of type 'com.mooc.house.biz.mapper.UserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mooc.house.biz.mapper.UserMapper' in your configuration.
+
+2018-03-14 13:46:37.744 [restartedMain] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in com.mooc.house.web.service.UserService required a bean of type 'com.mooc.house.biz.mapper.UserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mooc.house.biz.mapper.UserMapper' in your configuration.
+
+2018-03-14 13:48:07.616 [restartedMain] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in com.mooc.house.web.service.UserService required a bean of type 'com.mooc.house.biz.mapper.UserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mooc.house.biz.mapper.UserMapper' in your configuration.
+
+2018-03-14 14:54:08.043 [restartedMain] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in com.mooc.house.web.service.UserService required a bean of type 'com.mooc.house.biz.mapper.UserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mooc.house.biz.mapper.UserMapper' in your configuration.
+
+2018-03-14 14:55:07.833 [restartedMain] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.mooc.house.web.controller.HelloController required a bean of type 'com.mooc.house.biz.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mooc.house.biz.service.UserService' in your configuration.
+
+2018-03-14 15:01:44.181 [restartedMain] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.mooc.house.web.controller.HelloController required a bean of type 'com.mooc.house.biz.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mooc.house.biz.service.UserService' in your configuration.
+
+2018-03-14 15:03:42.374 [restartedMain] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.mooc.house.web.controller.HelloController required a bean of type 'com.mooc.house.biz.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mooc.house.biz.service.UserService' in your configuration.
+
+2018-03-14 15:33:56.840 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.mooc.house.web.controller.HelloController required a bean of type 'com.mooc.house.biz.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mooc.house.biz.service.UserService' in your configuration.
+
+2018-03-14 15:38:04.171 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.mooc.house.web.controller.HelloController required a bean of type 'com.mooc.house.biz.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mooc.house.biz.service.UserService' in your configuration.
+
+2018-03-14 15:38:27.450 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.mooc.house.web.controller.HelloController required a bean of type 'com.mooc.house.biz.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mooc.house.biz.service.UserService' in your configuration.
+
