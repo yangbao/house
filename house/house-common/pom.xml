@@ -29,6 +29,21 @@
 		<version>3.4</version>
 	</dependency>
 	<dependency>
+	   <groupId>commons-beanutils</groupId>
+	   <artifactId>commons-beanutils</artifactId>
+	</dependency>
+<!-- 	guava工具类 -->
+	<dependency>
+	  <groupId>com.google.guava</groupId>
+	  <artifactId>guava</artifactId>
+	  <version>18.0</version>
+	</dependency>
+<!-- 	spring 发邮件依赖 -->
+	<dependency>
+       <groupId>org.springframework.boot</groupId>
+       <artifactId>spring-boot-starter-mail</artifactId>
+    </dependency>
+	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-web</artifactId>
 		<!-- 用于将替换tomcat内嵌容器替换为jetty  <exclusions>

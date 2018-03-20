@@ -22,7 +22,6 @@ public class HelloController {
     List<User> users = userService.getUsers();
     modelMap.put("users", users);
     if(users.size() > 0){
-    	System.out.println("aaa");
     	throw new Exception();
     }
     return "hello";

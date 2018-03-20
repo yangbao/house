@@ -364,3 +364,260 @@ Error starting ApplicationContext. To display the auto-configuration report re-r
 2018-03-14 15:46:48.686 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
 2018-03-14 15:46:48.693 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
 2018-03-14 15:46:48.702 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:34:32.071 [main] INFO  [com.mooc.house.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 22036 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 16:34:32.075 [main] INFO  [com.mooc.house.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 16:34:32.143 [main] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62379589: startup date [Wed Mar 14 16:34:32 CST 2018]; root of context hierarchy
+2018-03-14 16:34:32.266 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 16:34:34.738 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 16:34:34.751 [main] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 16:34:34.753 [main] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 16:34:34.930 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 16:34:34.930 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 2787 ms
+2018-03-14 16:34:35.187 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 16:34:35.189 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 16:34:35.189 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 16:34:35.190 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 16:34:35.190 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'logFilter' to urls: [*]
+2018-03-14 16:34:35.190 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-03-14 16:34:35.192 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 16:34:35.891 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:847] - {dataSource-1} inited
+2018-03-14 16:34:37.159 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62379589: startup date [Wed Mar 14 16:34:32 CST 2018]; root of context hierarchy
+2018-03-14 16:34:37.250 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/index]}" onto public java.lang.String com.mooc.house.web.controller.HelloController.index()
+2018-03-14 16:34:37.252 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/hello]}" onto public java.lang.String com.mooc.house.web.controller.HelloController.hello(org.springframework.ui.ModelMap)
+2018-03-14 16:34:37.254 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/user]}" onto public java.util.List<com.mooc.house.common.model.User> com.mooc.house.web.controller.UserController.getUsers()
+2018-03-14 16:34:37.258 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-14 16:34:37.259 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-14 16:34:37.302 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 16:34:37.303 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 16:34:37.358 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 16:34:37.656 [main] INFO  [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-14 16:34:37.874 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+2018-03-14 16:34:37.875 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-14 16:34:37.876 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-03-14 16:34:37.885 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-03-14 16:34:37.887 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-03-14 16:34:37.905 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] - Initializing ProtocolHandler ["http-nio-8090"]
+2018-03-14 16:34:37.929 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] - Starting ProtocolHandler ["http-nio-8090"]
+2018-03-14 16:34:37.959 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:179] - Using a shared selector for servlet write/read
+2018-03-14 16:34:37.999 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:198] - Tomcat started on port(s): 8090 (http)
+2018-03-14 16:34:38.005 [main] INFO  [com.mooc.house.HouseApplication:57] - Started HouseApplication in 6.484 seconds (JVM running for 7.19)
+2018-03-14 16:35:07.737 [http-nio-8090-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-14 16:35:07.738 [http-nio-8090-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-14 16:35:07.768 [http-nio-8090-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2018-03-14 16:35:07.784 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.348 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.561 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.568 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.569 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.570 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.568 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.573 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.594 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.596 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.600 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.601 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.605 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.627 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.635 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.645 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.652 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.662 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.671 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.680 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.692 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.701 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.711 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.718 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.725 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.733 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.742 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.752 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.759 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.767 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.774 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.788 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.802 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.811 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.818 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.828 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.837 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.844 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.852 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.862 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.871 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:13.880 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:24.309 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:28.817 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.086 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.132 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.132 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.143 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.151 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.152 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.154 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.157 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.160 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.160 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.162 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.165 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.172 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.178 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.187 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.194 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.201 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.208 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.215 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.225 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.230 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.238 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.248 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.256 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.261 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.267 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.276 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.282 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.289 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.298 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.313 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.322 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.330 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.340 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.348 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.354 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.362 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.368 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.373 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.378 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.384 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.402 [http-nio-8090-exec-8] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.424 [http-nio-8090-exec-7] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.443 [http-nio-8090-exec-4] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.452 [http-nio-8090-exec-2] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.460 [http-nio-8090-exec-3] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.468 [http-nio-8090-exec-1] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.475 [http-nio-8090-exec-10] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:37.483 [http-nio-8090-exec-6] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:54.018 [http-nio-8090-exec-5] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:35:58.266 [http-nio-8090-exec-9] INFO  [com.mooc.house.web.filter.LogFilter:27] - Request--coming
+2018-03-14 16:48:24.021 [main] INFO  [com.mooc.house.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 16980 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 16:48:24.025 [main] INFO  [com.mooc.house.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 16:48:24.099 [main] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62379589: startup date [Wed Mar 14 16:48:24 CST 2018]; root of context hierarchy
+2018-03-14 16:48:24.206 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 16:48:26.586 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 16:48:26.602 [main] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 16:48:26.603 [main] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 16:48:26.771 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 16:48:26.771 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 2672 ms
+2018-03-14 16:48:27.039 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 16:48:27.040 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 16:48:27.041 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 16:48:27.041 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 16:48:27.041 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'logFilter' to urls: [*]
+2018-03-14 16:48:27.042 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-03-14 16:48:27.043 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 16:48:27.649 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:847] - {dataSource-1} inited
+2018-03-14 16:48:28.985 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62379589: startup date [Wed Mar 14 16:48:24 CST 2018]; root of context hierarchy
+2018-03-14 16:48:29.121 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/index]}" onto public java.lang.String com.mooc.house.web.controller.HelloController.index()
+2018-03-14 16:48:29.123 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/hello]}" onto public java.lang.String com.mooc.house.web.controller.HelloController.hello(org.springframework.ui.ModelMap) throws java.lang.Exception
+2018-03-14 16:48:29.124 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/user]}" onto public java.util.List<com.mooc.house.common.model.User> com.mooc.house.web.controller.UserController.getUsers()
+2018-03-14 16:48:29.128 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-14 16:48:29.129 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-14 16:48:29.188 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 16:48:29.189 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 16:48:29.221 [main] INFO  [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:273] - Detected @ExceptionHandler methods in errorhandler
+2018-03-14 16:48:29.266 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 16:48:29.539 [main] INFO  [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-14 16:48:29.761 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+2018-03-14 16:48:29.762 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-14 16:48:29.763 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-03-14 16:48:29.768 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-03-14 16:48:29.770 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-03-14 16:48:29.793 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] - Initializing ProtocolHandler ["http-nio-8090"]
+2018-03-14 16:48:29.808 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] - Starting ProtocolHandler ["http-nio-8090"]
+2018-03-14 16:48:29.831 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:179] - Using a shared selector for servlet write/read
+2018-03-14 16:48:29.855 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:198] - Tomcat started on port(s): 8090 (http)
+2018-03-14 16:48:29.862 [main] INFO  [com.mooc.house.HouseApplication:57] - Started HouseApplication in 6.391 seconds (JVM running for 7.234)
+2018-03-14 16:50:41.586 [restartedMain] INFO  [com.mooc.house.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 20928 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 16:50:41.591 [restartedMain] INFO  [com.mooc.house.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 16:50:41.667 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@428ba226: startup date [Wed Mar 14 16:50:41 CST 2018]; root of context hierarchy
+2018-03-14 16:50:41.898 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.2.5.Final
+2018-03-14 16:50:44.834 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 16:50:44.853 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 16:50:44.856 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 16:50:45.046 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 16:50:45.046 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 3380 ms
+2018-03-14 16:50:45.349 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 16:50:45.350 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 16:50:45.350 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 16:50:45.350 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 16:50:45.351 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'logFilter' to urls: [*]
+2018-03-14 16:50:45.351 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-03-14 16:50:45.352 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 16:50:45.849 [restartedMain] INFO  [com.alibaba.druid.pool.DruidDataSource:847] - {dataSource-1} inited
+2018-03-14 16:50:46.995 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@428ba226: startup date [Wed Mar 14 16:50:41 CST 2018]; root of context hierarchy
+2018-03-14 16:50:47.083 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/index]}" onto public java.lang.String com.mooc.house.web.controller.HelloController.index()
+2018-03-14 16:50:47.084 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/hello]}" onto public java.lang.String com.mooc.house.web.controller.HelloController.hello(org.springframework.ui.ModelMap) throws java.lang.Exception
+2018-03-14 16:50:47.085 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/user]}" onto public java.util.List<com.mooc.house.common.model.User> com.mooc.house.web.controller.UserController.getUsers()
+2018-03-14 16:50:47.087 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-14 16:50:47.088 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-14 16:50:47.132 [restartedMain] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 16:50:47.133 [restartedMain] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 16:50:47.152 [restartedMain] INFO  [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:273] - Detected @ExceptionHandler methods in errorhandler
+2018-03-14 16:50:47.193 [restartedMain] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 16:50:47.492 [restartedMain] INFO  [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-14 16:50:47.918 [restartedMain] INFO  [o.s.b.d.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2018-03-14 16:50:48.043 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+2018-03-14 16:50:48.047 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-14 16:50:48.047 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-03-14 16:50:48.056 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-03-14 16:50:48.058 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-03-14 16:50:48.086 [restartedMain] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] - Initializing ProtocolHandler ["http-nio-8090"]
+2018-03-14 16:50:48.116 [restartedMain] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] - Starting ProtocolHandler ["http-nio-8090"]
+2018-03-14 16:50:48.145 [restartedMain] INFO  [org.apache.tomcat.util.net.NioSelectorPool:179] - Using a shared selector for servlet write/read
+2018-03-14 16:50:48.190 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:198] - Tomcat started on port(s): 8090 (http)
+2018-03-14 16:50:48.201 [restartedMain] INFO  [com.mooc.house.HouseApplication:57] - Started HouseApplication in 7.168 seconds (JVM running for 7.977)
+2018-03-14 16:50:53.800 [Thread-5] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@428ba226: startup date [Wed Mar 14 16:50:41 CST 2018]; root of context hierarchy
+2018-03-14 16:50:53.802 [Thread-5] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2018-03-14 16:50:53.803 [Thread-5] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:241] - Unregistering JMX-exposed beans
+2018-03-14 16:50:53.807 [Thread-5] INFO  [com.alibaba.druid.pool.DruidDataSource:1608] - {dataSource-1} closed
+2018-03-14 16:50:54.347 [restartedMain] INFO  [com.mooc.house.HouseApplication:48] - Starting HouseApplication on U6035457-TPL-A with PID 20928 (F:\git\yangbao\house\house\house-web\target\classes started by u6035457 in F:\git\yangbao\house\house\house-web)
+2018-03-14 16:50:54.349 [restartedMain] INFO  [com.mooc.house.HouseApplication:662] - No active profile set, falling back to default profiles: default
+2018-03-14 16:50:54.353 [restartedMain] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ac7d15: startup date [Wed Mar 14 16:50:54 CST 2018]; root of context hierarchy
+2018-03-14 16:50:55.396 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8090 (http)
+2018-03-14 16:50:55.397 [restartedMain] INFO  [org.apache.catalina.core.StandardService:179] - Starting service [Tomcat]
+2018-03-14 16:50:55.398 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine:179] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-14 16:50:55.430 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring embedded WebApplicationContext
+2018-03-14 16:50:55.431 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 1079 ms
+2018-03-14 16:50:55.509 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 16:50:55.510 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 16:50:55.510 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 16:50:55.510 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 16:50:55.511 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'logFilter' to urls: [*]
+2018-03-14 16:50:55.511 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-03-14 16:50:55.511 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 16:50:55.790 [restartedMain] INFO  [com.alibaba.druid.pool.DruidDataSource:847] - {dataSource-2} inited
+2018-03-14 16:50:55.945 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ac7d15: startup date [Wed Mar 14 16:50:54 CST 2018]; root of context hierarchy
+2018-03-14 16:50:55.954 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/index]}" onto public java.lang.String com.mooc.house.web.controller.HelloController.index()
+2018-03-14 16:50:55.954 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/hello]}" onto public java.lang.String com.mooc.house.web.controller.HelloController.hello(org.springframework.ui.ModelMap) throws java.lang.Exception
+2018-03-14 16:50:55.955 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/user]}" onto public java.util.List<com.mooc.house.common.model.User> com.mooc.house.web.controller.UserController.getUsers()
+2018-03-14 16:50:55.959 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-14 16:50:55.960 [restartedMain] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-14 16:50:55.971 [restartedMain] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 16:50:55.972 [restartedMain] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 16:50:55.984 [restartedMain] INFO  [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:273] - Detected @ExceptionHandler methods in errorhandler
+2018-03-14 16:50:55.992 [restartedMain] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 16:50:56.029 [restartedMain] INFO  [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-14 16:50:56.142 [restartedMain] INFO  [o.s.b.d.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2018-03-14 16:50:56.228 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+2018-03-14 16:50:56.229 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-14 16:50:56.229 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-03-14 16:50:56.233 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-03-14 16:50:56.234 [restartedMain] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-03-14 16:50:56.239 [restartedMain] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] - Initializing ProtocolHandler ["http-nio-8090"]
+2018-03-14 16:50:56.239 [restartedMain] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] - Starting ProtocolHandler ["http-nio-8090"]
+2018-03-14 16:50:56.247 [restartedMain] INFO  [org.apache.tomcat.util.net.NioSelectorPool:179] - Using a shared selector for servlet write/read
+2018-03-14 16:50:56.255 [restartedMain] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:198] - Tomcat started on port(s): 8090 (http)
+2018-03-14 16:50:56.258 [restartedMain] INFO  [com.mooc.house.HouseApplication:57] - Started HouseApplication in 2.057 seconds (JVM running for 16.034)
+2018-03-14 16:51:13.820 [http-nio-8090-exec-8] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-14 16:51:13.821 [http-nio-8090-exec-8] INFO  [org.springframework.web.servlet.DispatcherServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-14 16:51:13.860 [http-nio-8090-exec-8] INFO  [org.springframework.web.servlet.DispatcherServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
