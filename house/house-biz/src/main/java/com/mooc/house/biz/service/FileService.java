@@ -27,6 +27,7 @@ public class FileService {
 	
 	
 	public List<String> getImgPaths(List<MultipartFile> files) {
+		
 	    if (Strings.isNullOrEmpty(filePath)) {
             filePath = getResourcePath();
         }
@@ -63,5 +64,8 @@ public class FileService {
 	 Files.write(file.getBytes(), newFile);
      return newFile;
 	}
-
+	public static void main(String[] args) {
+		String path = StringUtils.substringAfterLast("f:\\opt\\bgkp\\imgs\\Capture.PNG", "f:\\opt\\bgkp\\imgs\\");
+		System.out.println(path);
+	}
 }

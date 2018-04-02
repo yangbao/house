@@ -1,7 +1,12 @@
 package com.mooc.house.common.model;
 
 import java.util.Date;
-
+/**
+ * 用户留言model
+ * 
+ * @author u6035457
+ *
+ */
 public class UserMsg {
 
 	private Long id;

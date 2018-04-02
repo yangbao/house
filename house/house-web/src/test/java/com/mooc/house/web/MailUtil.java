@@ -1,4 +1,4 @@
-package com.mooc.house.web.service;
+package com.mooc.house.web;
 
 import java.security.Security;
 import java.util.Date;
